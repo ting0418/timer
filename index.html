@@ -10,13 +10,18 @@
     <div class="timer">
       <h1>倒數計時器</h1>
       <h2>
-        <span>00</span>:<span id="m_seconds">10</span>:<span id="seconds"
+        <span id="h_seconds">00</span>:<span id="m_seconds">00</span>:<span
+          id="seconds"
           >00</span
         >
       </h2>
-      <button id="start">start</button>
-      <button id="stop">stop</button>
-      <button id="reset">reset</button>
+      <input type="number" id="inputMinutes" placeholder="輸入分鐘數" />
+      <button class="setTime" id="setTime">set</button>
+      <div>
+        <button id="start">start</button>
+        <button id="stop">stop</button>
+        <button id="reset">reset</button>
+      </div>
     </div>
     <script src="./app.js"></script>
   </body>
